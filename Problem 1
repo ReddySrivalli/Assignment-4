@@ -1,0 +1,9 @@
+# Define a lambda function to add 25 to a given number
+add_25 = lambda x: x + 25
+
+# Input: You can replace 10 with any number you want to add 25 to
+input_number = float(input("Enter a number: "))  # Get user input and convert it to a float
+
+# Call the lambda function and print the result
+result = add_25(input_number)
+print(f"Result: {result}")
